@@ -1,0 +1,66 @@
+// Here you can add other styles
+// colors
+$light-green:  #49BBA8;
+$off-white:    #EFF3F8;
+$off-red:      #f10a0a;
+$light-red:    #F66D6E;
+$off-brown:    #212121;
+$light-brown:  #515151;
+$light-blue:   #383796;
+
+// fractional colors
+$color-rw-primary:    $light-blue  !default;
+$color-rw-error:      $off-red     !default;
+$color-rw-active:     $light-green !default;
+$color-rw-background: $off-white   !default;
+$color-rw-remove:     $light-red   !default;
+
+// colors
+.color-rw-primary {
+  color: $color-rw-primary;
+}
+.color-rw-error {
+  color: $color-rw-error;
+}
+.color-rw-active {
+  color: $color-rw-active;
+}
+.color-rw-background {
+  color: $color-rw-background;
+}
+.color-rw-remove {
+  color:  $color-rw-remove;
+}
+
+// sidebar
+.sidebar .nav-link.active, .sidebar .navbar .active.dropdown-toggle, .navbar .sidebar .active.dropdown-toggle {
+  color: $light-green;
+  background-color: initial;
+}
+
+.sidebar .nav-link, .sidebar .navbar .dropdown-toggle, .navbar .sidebar .dropdown-toggle {
+  padding: 1.5rem 1rem;
+}
+
+.sidebar {
+  .nav-link:hover {
+    color: $light-green;
+    background-color: initial;
+  }
+}
+
+// form
+.form-control-right-box {
+  color: #aaa;
+  position: relative;
+  right: 0.5rem;
+  float: right;
+  margin-top: -22px;
+  font-size: 10px;
+  z-index: 10;
+}
+
+// custom
+.mt-b {
+  margin-top: 28px;
+}
