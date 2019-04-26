@@ -105,7 +105,7 @@ library SafeMath {
 
 /**
  * @title Contract for Rewards Token
- * Copyright 2018, XinHong Lee (Rewards)
+ * Copyright 2018, Rewards Blockchain Systems
  */
 
 contract RewardsToken is Ownable {
@@ -339,7 +339,7 @@ contract RewardsToken is Ownable {
  * @title Contract that will hold vested tokens;
  * @notice Tokens for vested contributors will be hold in this contract and token holders
  * will claim their tokens according to their own vesting timelines.
- * Copyright 2018, XinHong Lee (Rewards)
+ * Copyright 2018, Rewards Blockchain Systems
  */
 contract VestingVault is Ownable {
     using SafeMath for uint256;
@@ -586,7 +586,7 @@ contract VestingVault is Ownable {
 
 /**
  * @title Contract for distribution of tokens
- * Copyright 2018, XinHong Lee (Rewards)
+ * Copyright 2018, Rewards Blockchain Systems
  */
 contract RewardsTokenDistribution is Ownable {
     using SafeMath for uint256;
