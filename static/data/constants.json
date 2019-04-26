@@ -6,9 +6,9 @@
     "distribution_address": ""
   },
   "ropsten": {
-    "token_address": "0xf14a156bee58cef05122060e0733dac856725a8f",
-    "vesting_address": "0x42da051171dac2e62a4ccbcc04bd21bb531d4fc9",
-    "distribution_address": "0x4e6cbf7a0806b3403c903cc55dd40868474051d2"
+    "token_address": "",
+    "vesting_address": "",
+    "distribution_address": ""
   },
   "rinkeby": {
     "token_address": "",
