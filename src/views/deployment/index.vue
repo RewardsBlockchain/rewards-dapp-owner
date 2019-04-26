@@ -10,7 +10,7 @@
               <p>Token Name: Rewards Cash</p>
               <p>Token Symbol: RWRD</p>
               <p>Token Decimal: 18</p>
-              <p>Token HardCap: 1 Billion</p>
+              <p>Token HardCap: 500 Millions</p>
             </b-col>
             <b-col md="7">
               <p>- ERC-20 Compliance and Ownable Token</p>
